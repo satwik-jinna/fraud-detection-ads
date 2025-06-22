@@ -31,7 +31,8 @@ Put `dags/fraud_detection_DAG.py` in your Airflow `dags/` folder and run `airflo
 
 ### Fraud Map (Demo Data)
 
-![Fraud Map](/Users/satwikcrj/Downloads/fraud_map.png)
+![Fraud Map](![fraud_map](https://github.com/user-attachments/assets/b7782078-4ce5-4d2a-ac5e-4726a8d035e2)
+)
 
 *Note: This project uses sample/simulated data. In real-world deployments, the fraud map would show clear regional “hotspots.” For this demo, the map highlights detected fraud activity by country where present.*
 
