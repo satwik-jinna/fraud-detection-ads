@@ -27,6 +27,25 @@ Put `dags/fraud_detection_DAG.py` in your Airflow `dags/` folder and run `airflo
 - **Automated pipeline:** Set up a daily Airflow DAG to run fraud checks and export results automatically.
 - **Actionable insights for stakeholders:** Produced easy-to-read maps and reports to help business teams identify fraud trends by country.
 
+## Visualizations
+
+### Fraud Map (Demo Data)
+
+![Fraud Map](/Users/satwikcrj/Downloads/fraud_map.png)
+
+*Note: This project uses sample/simulated data. In real-world deployments, the fraud map would show clear regional “hotspots.” For this demo, the map highlights detected fraud activity by country where present.*
+
+### Top Flagged Users
+|   user_id |   total_clicks | ip_address      | country   |
+|----------:|---------------:|:----------------|:----------|
+|      1583 |           2027 | 198.123.220.105 | US        |
+|      2274 |           2024 | 189.248.189.178 | MX        |
+|       183 |           2019 | 95.67.89.62     | UA        |
+|      2856 |           2018 | 208.145.17.246  | US        |
+|      4442 |           2015 | 5.97.109.163    | IT        |
+
+*Table: Example of users flagged for high click activity (potential bots or click farms).*
+
 ## Contact
 
 *Created by Satwik. For demo/educational use.*
