@@ -28,4 +28,4 @@ Put `dags/fraud_detection_DAG.py` in your Airflow `dags/` folder and run `airflo
 
 ## Contact
 
-*Created by Satwik Jinna. For demo/educational use.*
+*Created by Satwik. For demo/educational use.*
