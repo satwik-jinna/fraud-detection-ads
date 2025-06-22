@@ -1,0 +1,4 @@
+- **Detected high-risk users:** Flagged 5+ user accounts with >1000 clicks/day using anomaly detection and Z-score methods.
+- **Identified suspicious proxy IPs:** Found IP addresses associated with unusually high numbers of user accounts, suggesting bot farms or click fraud.
+- **Automated pipeline:** Set up a daily Airflow DAG to run fraud checks and export results automatically.
+- **Actionable insights for stakeholders:** Produced easy-to-read maps and reports to help business teams identify fraud trends by country.
