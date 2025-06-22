@@ -1,0 +1,8 @@
+pandas
+scipy
+plotly
+geoip2
+tqdm
+apache-airflow
+notebook
+
