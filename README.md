@@ -20,11 +20,12 @@ Open and run `notebook/main_analysis.ipynb`.
 3. Airflow pipeline:
 Put `dags/fraud_detection_DAG.py` in your Airflow `dags/` folder and run `airflow standalone`.
 
-## Example Results
+## Key Results
 
-- Detected high-volume bots and proxy IPs
-- Fraud “hotspots” mapped by country
-- Automated reporting and visualization
+- **Detected high-risk users:** Flagged 5+ user accounts with >1000 clicks/day using anomaly detection and Z-score methods.
+- **Identified suspicious proxy IPs:** Found IP addresses associated with unusually high numbers of user accounts, suggesting bot farms or click fraud.
+- **Automated pipeline:** Set up a daily Airflow DAG to run fraud checks and export results automatically.
+- **Actionable insights for stakeholders:** Produced easy-to-read maps and reports to help business teams identify fraud trends by country.
 
 ## Contact
 
