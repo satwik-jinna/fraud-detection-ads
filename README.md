@@ -9,6 +9,7 @@ It includes:
 - **Automated pipeline:** Production-ready DAG using Apache Airflow.
 - **Visualization:** Maps and dashboards showing where fraud happens, and actionable reporting for stakeholders.
 - **Geolocation:** Real-world mapping using GeoLite2 Country database.
+![fraud_map](https://github.com/user-attachments/assets/68d06015-377e-4ec5-bf19-ad5fc9928485)
 
 ## Getting Started
 
